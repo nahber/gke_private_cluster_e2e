@@ -4,7 +4,7 @@
 data "google_container_engine_versions" "gkeversion" {
   location           = "us-west1"
   #version_prefix = var.k8s_version
-  project            = var.project
+  project            = group5-6m11
 }
 
 resource "google_container_cluster" "cluster" {
