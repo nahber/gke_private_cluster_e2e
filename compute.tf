@@ -1,5 +1,5 @@
 data "google_compute_zones" "available" {
-  project = var.project
+  project = group5-6m11
 }
 
 ### Creating jump-host / bastion-host  ###
